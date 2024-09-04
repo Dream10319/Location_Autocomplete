@@ -21,6 +21,7 @@ namespace Location_Autocomplete
         private void InitializeComponent()
         {
             _listBox = new ListBox();
+            _listBox.HorizontalScrollbar = true;
             this.KeyDown += this_KeyDown;
             this.KeyUp += this_KeyUp;
         }
